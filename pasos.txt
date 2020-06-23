@@ -1,0 +1,16 @@
+INSTRUCCIONES PARA UN REPOSITORIO NUEVO
+1. Tener git instalado (utilidad: https://git-scm.com/downloads)
+2. Comprobar a git en la consola (cualquiera) con el comando git --version
+3. Crear un repositorio nuevo en github.com
+4. Inicializo un proyecto local con: git init
+5. Agregar los archivos al repositorio con: git add -A
+6. Confirmar cambios con un comentario con: git commit -m "Este es la versión 1"
+7. Vincular repositorio local al remoto con: git remote add origin https://github.com/wrodriguezmo/replica.git
+8. Subir los cambios confirmados al repositorio remoto con: git push -u origin master
+
+
+INSTRUCCIONES PARA SUBIR NUEVOS CAMBIOS
+5, 6 y 8 se repiten.
+
+Comandos útiles:
+git remote -v | lista los repositorios remotos enlazados.
